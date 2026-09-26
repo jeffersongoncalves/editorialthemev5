@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3e077524dfed963fe7c6f3b176cc02c",
+    "content-hash": "3b418e9ff868ac500bd9bd81105c96d0",
     "packages": [
         {
             "name": "achyutn/filament-log-viewer",
@@ -2306,6 +2306,86 @@
             "time": "2026-06-24T00:33:32+00:00"
         },
         {
+            "name": "jeffersongoncalves/filament-admin",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersongoncalves/filament-admin.git",
+                "reference": "6051927723273ef43cca06bf176ec9e62a263f4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-admin/zipball/6051927723273ef43cca06bf176ec9e62a263f4f",
+                "reference": "6051927723273ef43cca06bf176ec9e62a263f4f",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^5.0",
+                "jeffersongoncalves/filament-additional-information": "^3.0",
+                "jeffersongoncalves/laravel-admin": "^1.0",
+                "php": "^8.3",
+                "spatie/laravel-package-tools": "^1.16"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^10.0|^11.0",
+                "pestphp/pest": "^4.0",
+                "pestphp/pest-plugin-laravel": "^4.0",
+                "pestphp/pest-plugin-livewire": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\Admin\\AdminServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\Admin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Filament Admin model, AdminResource, status-aware Login page and plugin for a separate admin guard.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-admin",
+            "keywords": [
+                "admin",
+                "admins",
+                "filament",
+                "filament-plugin",
+                "laravel",
+                "multi-auth",
+                "starter-kit"
+            ],
+            "support": {
+                "issues": "https://github.com/jeffersongoncalves/filament-admin/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-admin/tree/3.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://buymeacoffee.com/jeffersongoncalves",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/jeffersongoncalves",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-09-26T20:16:14+00:00"
+        },
+        {
             "name": "jeffersongoncalves/filament-logo",
             "version": "3.1.0",
             "source": {
@@ -2580,6 +2660,166 @@
             "time": "2026-08-28T10:59:25+00:00"
         },
         {
+            "name": "jeffersongoncalves/filament-user",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersongoncalves/filament-user.git",
+                "reference": "39a31b0be8ef288d730520607791b4bc67793e24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-user/zipball/39a31b0be8ef288d730520607791b4bc67793e24",
+                "reference": "39a31b0be8ef288d730520607791b4bc67793e24",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^5.0",
+                "jeffersongoncalves/filament-additional-information": "^3.0",
+                "jeffersongoncalves/laravel-user": "^1.0",
+                "php": "^8.3",
+                "spatie/laravel-package-tools": "^1.16",
+                "stechstudio/filament-impersonate": "^5.4"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^10.0|^11.0",
+                "pestphp/pest": "^4.0",
+                "pestphp/pest-plugin-laravel": "^4.0",
+                "pestphp/pest-plugin-livewire": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\User\\UserServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\User\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Filament User model, UserResource, status-aware Login page and plugin for the jeffersongoncalves starter kits.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-user",
+            "keywords": [
+                "Users",
+                "filament",
+                "filament-plugin",
+                "laravel",
+                "starter-kit",
+                "user"
+            ],
+            "support": {
+                "issues": "https://github.com/jeffersongoncalves/filament-user/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-user/tree/3.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://buymeacoffee.com/jeffersongoncalves",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/jeffersongoncalves",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-09-26T20:16:14+00:00"
+        },
+        {
+            "name": "jeffersongoncalves/laravel-admin",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersongoncalves/laravel-admin.git",
+                "reference": "ca3fb0fadba85c93855a7675c527bc6a7070cead"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-admin/zipball/ca3fb0fadba85c93855a7675c527bc6a7070cead",
+                "reference": "ca3fb0fadba85c93855a7675c527bc6a7070cead",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^11.0|^12.0|^13.0",
+                "php": "^8.2",
+                "spatie/laravel-package-tools": "^1.16"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.24",
+                "orchestra/testbench": "^9.0|^10.0|^11.0",
+                "pestphp/pest": "^3.0|^4.0",
+                "pestphp/pest-plugin-laravel": "^3.0|^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Admin\\AdminServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Admin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Separate Admin authenticatable model with its own guard, provider, password broker, migration, factory and observer for Laravel.",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-admin",
+            "keywords": [
+                "Authentication",
+                "admin",
+                "admins",
+                "guard",
+                "laravel",
+                "multi-auth",
+                "starter-kit"
+            ],
+            "support": {
+                "issues": "https://github.com/jeffersongoncalves/laravel-admin/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-admin/tree/1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://buymeacoffee.com/jeffersongoncalves",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/jeffersongoncalves",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-09-26T20:16:13+00:00"
+        },
+        {
             "name": "jeffersongoncalves/laravel-favicon",
             "version": "1.0.0",
             "source": {
@@ -2718,6 +2958,84 @@
                 }
             ],
             "time": "2026-08-27T14:19:24+00:00"
+        },
+        {
+            "name": "jeffersongoncalves/laravel-user",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersongoncalves/laravel-user.git",
+                "reference": "a093114b0fbc16825e0394f24faa94c8d39b7fb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-user/zipball/a093114b0fbc16825e0394f24faa94c8d39b7fb1",
+                "reference": "a093114b0fbc16825e0394f24faa94c8d39b7fb1",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^11.0|^12.0|^13.0",
+                "php": "^8.2",
+                "spatie/laravel-package-tools": "^1.16"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.24",
+                "orchestra/testbench": "^9.0|^10.0|^11.0",
+                "pestphp/pest": "^3.0|^4.0",
+                "pestphp/pest-plugin-laravel": "^3.0|^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\User\\UserServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\User\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Base authenticatable User model, migration, factory and observer shared by the jeffersongoncalves Laravel starter kits.",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-user",
+            "keywords": [
+                "Authentication",
+                "Users",
+                "laravel",
+                "starter-kit",
+                "user"
+            ],
+            "support": {
+                "issues": "https://github.com/jeffersongoncalves/laravel-user/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-user/tree/1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://buymeacoffee.com/jeffersongoncalves",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/jeffersongoncalves",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-09-26T20:16:13+00:00"
         },
         {
             "name": "jenssegers/agent",
