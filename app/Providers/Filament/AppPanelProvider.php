@@ -2,7 +2,6 @@
 
 namespace App\Providers\Filament;
 
-use App\Filament\App\Pages\Auth\Login;
 use App\Models\User;
 use DutchCodingCompany\FilamentDeveloperLogins\FilamentDeveloperLoginsPlugin;
 use Filament\Actions\Action;
@@ -24,6 +23,7 @@ use Illuminate\Session\Middleware\StartSession;
 use Illuminate\Support\Facades\Vite;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use JeffersonGoncalves\Filament\Pwa\FilamentPwaPlugin;
+use JeffersonGoncalves\Filament\User\Pages\Auth\Login;
 use Joaopaulolndev\FilamentEditProfile\FilamentEditProfilePlugin;
 use Joaopaulolndev\FilamentEditProfile\Pages\EditProfilePage;
 
