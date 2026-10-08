@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "jeffersongoncalves/filakitv5",
+    "name": "jeffersongoncalves/editorialthemev5",
     "type": "project",
-    "description": "FilaKit starter kit built on Laravel 13.x and Filament 5.x with a ready-to-use multi-panel structure.",
+    "description": "EditorialTheme starter kit built on Laravel 13.x and Filament 5.x with a ready-to-use multi-panel structure.",
     "keywords": [
         "laravel-starter-kit",
         "starter-kit",
@@ -11,7 +11,9 @@
         "filament",
         "filament-v5",
         "livewire",
-        "tailwindcss"
+        "tailwindcss",
+        "filament-editorial-theme",
+        "editorial-theme"
     ],
     "license": "MIT",
     "require": {
@@ -21,6 +23,7 @@
         "filament/filament": "^5.0",
         "jeffersongoncalves/filament-additional-information": "^3.0",
         "jeffersongoncalves/filament-admin": "^3.0",
+        "jeffersongoncalves/filament-editorial-theme": "^3.3",
         "jeffersongoncalves/filament-logo": "^3.0",
         "jeffersongoncalves/filament-pwa": "^3.0",
         "jeffersongoncalves/filament-sensible-defaults": "^3.0",
